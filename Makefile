@@ -10,7 +10,7 @@ LIB = $(3rd_LIB)
 preDef = _Litening_
 
 ifndef CFG
-CFG=Debug
+CFG=Release
 endif
 ifeq "$(CFG)" "Debug"
 CFLAGS = -g
