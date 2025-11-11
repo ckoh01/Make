@@ -51,7 +51,7 @@ check:
 
 .PHONY: clean
 clean:
-	del *.exe *.o
+	del /S /Q $(OUTDIR)
 
 
 
